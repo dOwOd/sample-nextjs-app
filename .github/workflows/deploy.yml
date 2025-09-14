@@ -33,6 +33,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'test-nextjs-app' # <--- ここにご自身で決めたプロジェクト名を記入してください
+          projectName: 'sample-nextjs-app'
           directory: out
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
